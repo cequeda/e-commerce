@@ -1,0 +1,22 @@
+{
+    "productos": [
+        {
+            "name": "Alura",
+            "imageUrl": "assets/img/producto1.png",
+            "price": "100 00",
+            "id": "1",
+            "alt": "Product",
+            "section": "Star Wars",
+            "description": "Taza de la pelicula Star Wars."
+        },
+        {
+            "name": "Alura",
+            "imageUrl": "assets/img/producto2.png",
+            "price": "100 00",
+            "id": "1",
+            "alt": "Product",
+            "section": "Star Wars",
+            "description": "Taza de la pelicula Star Wars."
+        }
+    ]
+}

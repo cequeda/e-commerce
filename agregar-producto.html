@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Productos</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styleAgregarProducto.css">
+    <link rel="stylesheet" href="assets/css/responsibleAgregarProducto.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header-principal">
+        <div class="logoBusqueda">
+            <div class="logparte1">
+                <img src="assets/img/mando_azul.jpg" alt="">
+                <div class="logoTexto">
+                    <p class="logoTexto1">Alura</p>
+                    <p class="logoTexto2">Geek</p>
+                </div>
+            </div>
+            <div class="logparte2">
+                <div class="busqueda">
+                    <input type="text" placeholder="¿Que deseas buscar?">
+                </div>
+            </div>
+
+
+        </div>
+        <div class="principal">
+            <a href="index.html" class="btnPrin">Principal</a>
+        </div>
+    </header>
+    <main>
+
+        <section class="agregarPro">
+            <div class="agregarPro-formulario">
+                <h3 class="agregarProTitulo">Agregar Nuevo Producto</h3>
+                <form id="form" enctype="multipart/form-data" method="post">
+                    <div class="field2">
+                        <div>
+                            <label for="image_uploads">Click para selecionar una imagen</label>
+                            <input type="file" id="image_uploads" name="image_uploads" accept=".jpg, .jpeg, .png" multiple style="opacity: 0" onclick="updateImageDisplay()" />
+                        </div>
+                        <div class="preview">
+                            <p>Imagen no cargada</p>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <input type="text" name="categoria" id="categoria" required placeholder="Categoria" class="formularioagregarPro">
+                    </div>
+                    <div class="field">
+                        <input type="text" name="nombre" id="nombre" required placeholder="Nombre del producto" class="formularioagregarPro">
+                    </div>
+                    <div class="field">
+                        <input type="text" name="precio" id="precio" required placeholder="Precio del producto" class="formularioagregarPro">
+                    </div>
+                    <div class="field">
+                        <input type="text" name="descripcion" id="descripcion" required placeholder="Descripción del producto" class="formularioagregarPro">
+                    </div>
+                    <div class="botonAgregar">
+                        <input type="submit" id="button" value="Agregar Producto" class="btnagregarPro">
+                    </div>
+
+                </form>
+            </div>
+
+        </section>
+
+        <section class="contacto">
+            <div class="contactoLogo-info">
+                <div class="contacto-logo">
+                    <div class="logparte2">
+                        <img src="assets/img/mando_azul.jpg" alt="">
+                        <div class="logoTexto">
+                            <p class="logoTexto1">Alura</p>
+                            <p class="logoTexto2">Geek</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacto-info">
+                    <ul class="contacto-infoList">
+                        <li class="contacto-infoList-item"><a href="">Quienes somos</a></li>
+                        <li class="contacto-infoList-item"><a href="">Política de privacidad</a></li>
+                        <li class="contacto-infoList-item"><a href="">Programa de fidelidad</a></li>
+                        <li class="contacto-infoList-item"><a href="">Nuestras tiendas</a></li>
+                        <li class="contacto-infoList-item"><a href="">Quiero ser franquiciado</a></li>
+                        <li class="contacto-infoList-item"><a href="">Anúncia aquí</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="contacto-formulario">
+                <h3 class="formularioTitulo">Hable con nosotros</h3>
+                <form id="form">
+                    <div class="field">
+                        <input type="text" name="nombre" id="nombre" required placeholder="Nombre" class="formularioInput">
+                    </div>
+                    <div class="field">
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Escriba su mensaje" class="formularioTextarea" required maxlength="300"></textarea>
+                    </div>
+                    <input type="submit" id="button" value="Eniar Mensaje" class="btnFormulario">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <h2 class="footerTextp">Desarrollado por Daniel Quesada C. © <br>2022</h2>
+    </footer>
+</body>
+<script src="assets/js/inicio.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+    emailjs.init('soyv4vV9tfDuQN5E4')
+
+</script>
+
+</html>

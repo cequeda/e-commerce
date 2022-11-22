@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-commerce</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styledescripcion-producto.css">
+    <link rel="stylesheet" href="assets/css/responsibleProducto.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header-principal">
+        <div class="logoBusqueda">
+            <div class="logparte1">
+                <img src="assets/img/mando_azul.jpg" alt="">
+                <div class="logoTexto">
+                    <p class="logoTexto1">Alura</p>
+                    <p class="logoTexto2">Geek</p>
+                </div>
+            </div>
+            <div class="logparte2">
+                <div class="busqueda">
+                    <input type="text" placeholder="¿Que deseas buscar?">
+                </div>
+            </div>
+        </div>
+        <div class="principal">
+            <a href="index.html" class="btnPrin">Principal</a>
+        </div>
+    </header>
+    <main>
+        <section class="productos">
+           <!--<div class="contenedorInfo">
+               <div class="info_imagen" id="mostrarimg" este></div>
+               <div class="info_texto"></div>
+           </div>-->
+           <div class="contenedorInfo">
+               <div class="info_imagen" id="mostrarimg" este>
+                   <img src="assets/img/producto1.png" alt="">
+               </div>
+               <div class="info_texto">
+                  <h3>Producto XYZ</h3>
+                  <p class="negrita">$ 60,00</p>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, dolor placeat, pariatur vitae quibusdam ea quod commodi consequatur minima est tenetur nihil. Perspiciatis adipisci illum iusto, enim cum voluptate at.</p>
+               </div>
+           </div>
+            <div class="lineaProductos">
+                <div class="lienaProductos-titulo">
+                    <h2>Productos similares</h2>
+                </div>
+                <div class="lineaProductos-contenido">
+                    <ul class="contenido" id="contenido1">
+                        <li class="contenido-producto">
+                            <img src="assets/img/producto1.png" alt="">
+                            <h3 class="contenido-texto">Producto XYZ</h3>
+                            <p class="contenido-texto">$ 60,00</p>
+                            <a href="descripcion-producto.html" class="contenido-texto" onclick="mostrarInfo()">Ver producto</a>
+                        </li>
+                        <li class="contenido-producto">
+                            <img src="assets/img/producto2.png" alt="">
+                            <h3 class="contenido-texto">Producto XYZ</h3>
+                            <p class="contenido-texto">$ 60,00</p>
+                            <a href="#" class="contenido-texto" onclick="mostrarInfo('2')"  >Ver producto</a>
+                        </li>
+                        <li class="contenido-producto">
+                            <img src="assets/img/producto3.png" alt="">
+                            <h3 class="contenido-texto">Producto XYZ</h3>
+                            <p class="contenido-texto">$ 60,00</p>
+                            <a href="#" class="contenido-texto">Ver producto</a>
+                        </li>
+                        <li class="contenido-producto">
+                            <img src="assets/img/producto4.png" alt="">
+                            <h3 class="contenido-texto">Producto XYZ</h3>
+                            <p class="contenido-texto">$ 60,00</p>
+                            <a href="#" class="contenido-texto">Ver producto</a>
+                        </li>
+                        <li class="contenido-producto" id="casiultimo">
+                            <img src="assets/img/producto5.png" alt="">
+                            <h3 class="contenido-texto">Producto XYZ</h3>
+                            <p class="contenido-texto">$ 60,00</p>
+                            <a href="#" class="contenido-texto">Ver producto</a>
+                        </li>
+                        <li class="contenido-producto">
+                            <img src="assets/img/producto6.png" alt="">
+                            <h3 class="contenido-texto">Producto XYZ</h3>
+                            <p class="contenido-texto">$ 60,00</p>
+                            <a href="#" class="contenido-texto">Ver producto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="contacto">
+            <div class="contactoLogo-info">
+                <div class="contacto-logo">
+                    <div class="logparte2">
+                        <img src="assets/img/mando_azul.jpg" alt="">
+                        <div class="logoTexto">
+                            <p class="logoTexto1">Alura</p>
+                            <p class="logoTexto2">Geek</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacto-info">
+                    <ul class="contacto-infoList">
+                        <li class="contacto-infoList-item"><a href="">Quienes somos</a></li>
+                        <li class="contacto-infoList-item"><a href="">Política de privacidad</a></li>
+                        <li class="contacto-infoList-item"><a href="">Programa de fidelidad</a></li>
+                        <li class="contacto-infoList-item"><a href="">Nuestras tiendas</a></li>
+                        <li class="contacto-infoList-item"><a href="">Quiero ser franquiciado</a></li>
+                        <li class="contacto-infoList-item"><a href="">Anúncia aquí</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="contacto-formulario">
+                <h3 class="formularioTitulo">Hable con nosotros</h3>
+                <form id="form">
+                    <div class="field">
+                        <input type="text" name="nombre" id="nombre" required placeholder="Nombre" class="formularioInput">
+                    </div>
+                    <div class="field">
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Escriba su mensaje" class="formularioTextarea" required maxlength="300"></textarea>
+                    </div>
+                    <input type="submit" id="button" value="Eniar Mensaje" class="btnFormulario">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <h2 class="footerTextp">Desarrollado por Daniel Quesada C. © <br>2022</h2>
+    </footer>
+</body>
+<script>src="https://code.jquery.com/jquery-3.5.1.min.js"</script>
+<script src="assets/js/inicio.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+    emailjs.init('soyv4vV9tfDuQN5E4')
+
+</script>
+
+</html>
