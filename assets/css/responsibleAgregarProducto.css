@@ -1,0 +1,200 @@
+@media (max-width: 769px) {
+
+    /*------------------- header  ----------------------------------------*/
+    .logoBusqueda {
+        width: 60%;
+        height: 10vh;
+        margin-left: 1.5rem;
+    }
+
+    .logparte1 {
+        width: 50%;
+    }
+
+    .logparte1 img {
+        width: 30px;
+    }
+
+    .logoTexto1 {
+        font-size: 1.5rem;
+        margin-left: 5px;
+    }
+
+    .logoTexto2 {
+        font-size: 1.5rem;
+    }
+
+    .busqueda input {
+        width: 250px;
+        margin-top: 30px;
+    }
+
+    .btnPrin {
+        width: 122px;
+        font-weight: 700;
+        font-size: 18px;
+        padding: 14px;
+    }
+
+    /*------------------- Agregar Producto  ----------------------------------------*/
+
+
+    .agregarPro-formulario {
+        width: 60%;
+    }
+
+    .agregarProTitulo {
+        font-size: 22px;
+    }
+
+    .botonAgregar {
+        text-align: center;
+    }
+
+    .btnagregarPro {
+        width: 50%;
+    }
+
+    /*------------------- contacto  ----------------------------------------*/
+    .contactoLogo-info {
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+    }
+
+    .logparte2 {
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .contacto-info {
+        margin-left: 30px;
+    }
+
+    .contacto-infoList-item a {
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .formularioTitulo {
+        ;
+        font-size: 13px;
+    }
+
+    .btnFormulario {
+        font-size: 0.8rem;
+    }
+
+    /*-------------------  footer  ----------------------------------------*/
+    .footer {
+        font-size: 1rem;
+        font-weight: 700;
+
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    /*------------------- header  ----------------------------------------*/
+    .logoBusqueda {
+        width: 50%;
+        height: 12vh;
+    }
+
+    .logparte1 {
+        width: 60%;
+    }
+
+    .logparte1 img {
+        width: 40px;
+    }
+
+    .logparte2 {
+        justify-content: center;
+    }
+
+    .busqueda input {
+        width: 35px;
+        height: 40px;
+        background: #e2e2e2;
+        border-radius: 20px;
+        background-image: url(../img/lupa.png);
+        background-repeat: no-repeat;
+        background-position: 50%;
+        margin-top: 1.8rem;
+        border: none;
+    }
+
+    .busqueda input::placeholder {
+        color: transparent;
+    }
+
+    /*------------------- Agregar Producto  ----------------------------------------*/
+
+
+    .agregarPro-formulario {
+        width: 80%;
+    }
+
+    .agregarProTitulo {
+        font-size: 22px;
+    }
+
+    .botonAgregar {
+        text-align: center;
+    }
+
+    .btnagregarPro {
+        width: 40%;
+    }
+
+    /*------------------- contacto  ----------------------------------------*/
+    .contacto {
+        flex-direction: column;
+    }
+
+    .contactoLogo-info {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .logparte2 {
+        margin-left: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .contacto-info {
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    .contacto-infoList-item a {
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .contacto-formulario {
+        width: 90%;
+    }
+
+    .formularioTitulo {
+        ;
+        font-size: 13px;
+    }
+
+    .btnFormulario {
+        width: 40%;
+        font-size: 1.3rem;
+    }
+
+    /*-------------------  footer  ----------------------------------------*/
+    .footer {
+        font-size: 1rem;
+        font-weight: 700;
+
+    }
+}

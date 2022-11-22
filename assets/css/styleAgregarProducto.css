@@ -1,0 +1,270 @@
+html {
+    scroll-behavior: smooth;
+    width: 100vw;
+}
+
+body {
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    /*background-color: brown;*/
+    font-family: 'Raleway', sans-serif;
+}
+
+main {
+
+    width: 100vw;
+}
+
+/*------------------- header  ----------------------------------------*/
+.header-principal {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.logoBusqueda {
+    width: 80%;
+    height: 15vh;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    justify-content: none;
+    margin-left: 3rem;
+
+}
+
+.logparte1 {
+    display: flex;
+    width: 20%;
+}
+
+.logoTexto {
+    display: flex;
+    flex-direction: row;
+}
+
+.logoTexto1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2A7AE4;
+    margin-left: 10px;
+}
+
+.logoTexto2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #464646;
+}
+
+.logparte2 {
+    display: flex;
+    width: 50%;
+}
+
+.busqueda input {
+    width: 350px;
+    height: 40px;
+    background: #F5F5F5;
+    border-radius: 20px;
+    background-image: url(../img/lupa.png);
+    background-repeat: no-repeat;
+    background-position: 95%;
+
+}
+
+.btnPrin {
+    cursor: pointer;
+    width: 182px;
+    height: 51px;
+    border: 1px solid #2A7AE4;
+    padding: 16px;
+    text-decoration: none;
+    margin-right: 4rem;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #2A7AE4;
+}
+
+.btnPrin:hover {
+    background-color: cornflowerblue;
+    color: antiquewhite;
+    font-weight: 700;
+}
+
+/*------------------- Agregar Producto  ----------------------------------------*/
+.agregarPro {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.agregarPro-formulario {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.agregarProTitulo {
+    margin: 0.5rem 0 0.5rem 0.5rem;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    text-align: center;
+}
+
+.formularioagregarPro {
+    width: 98%;
+    height: 2rem;
+    margin: 0.5rem 0 0.5rem 0.5rem;
+    border-color: transparent;
+    border: 2px solid #064f92;
+    border-radius: 5px;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.btnagregarPro {
+    width: 100%;
+    margin: 0.5rem 0 0.5rem 0.5rem;
+    background: #064f92;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.field2 {
+    width: 98%;
+    height: auto;
+    margin: 0.5rem 0 0.5rem 0.5rem;
+    border-color: transparent;
+    border: 2px solid #064f92;
+    border-radius: 5px;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.preview img {
+    width: 100px;
+    height: 100px;
+}
+
+/*------------------- contacto  ----------------------------------------*/
+.contacto {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 40px;
+
+    background-color: #EAF2FD;
+}
+
+.contactoLogo-info {
+    display: flex;
+    flex-direction: row;
+    width: 49%;
+    justify-content: space-between;
+}
+
+.contacto-logo {
+    width: 48%;
+}
+
+.logparte2 {
+    display: flex;
+    margin-left: 2rem;
+}
+
+.contacto-info {
+    width: 48%;
+}
+
+.contacto-infoList-item {
+    padding-top: 10px;
+}
+
+.contacto-infoList-item a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    text-decoration: none;
+}
+
+.contacto-formulario {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formularioTitulo {
+    margin: 0.5rem 0 0.5rem 0.5rem;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+.formularioInput {
+    width: 90%;
+    height: 2rem;
+    margin: 0.5rem 0 0.5rem 0.5rem;
+    border-color: transparent;
+    border: 2px solid #064f92;
+    border-radius: 5px;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.formularioTextarea {
+    width: 90%;
+    margin: 0.5rem 0 0.5rem 0.5rem;
+    border-color: transparent;
+    border: 2px solid #064f92;
+    border-radius: 5px;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.btnFormulario {
+    width: 30%;
+    margin: 0.5rem 0 0.5rem 0.5rem;
+    background: #064f92;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+/*-------------------  footer  ----------------------------------------*/
+.footer {
+    background: #FFFFFF;
+    text-align: center;
+    font-size: 1.3rem;
+    width: 100%;
+    height: auto;
+    color: #464646;
+}
+
+.footerTextp {
+    padding: 1rem 0 1rem 1rem;
+}
