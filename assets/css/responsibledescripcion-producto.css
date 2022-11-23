@@ -1,0 +1,240 @@
+@media (max-width: 769px) {
+
+    /*------------------- header  ----------------------------------------*/
+    .logoBusqueda {
+        width: 60%;
+        height: 10vh;
+        margin-left: 1.5rem;
+    }
+
+    .logparte1 {
+        width: 50%;
+    }
+
+    .logparte1 img {
+        width: 30px;
+    }
+
+    .logoTexto1 {
+        font-size: 1.5rem;
+        margin-left: 5px;
+    }
+
+    .logoTexto2 {
+        font-size: 1.5rem;
+    }
+
+    .busqueda input {
+        width: 250px;
+        margin-top: 30px;
+    }
+
+    .btnLogin {
+        width: 122px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    /*------------------- descripcion  ----------------------------------------*/
+    .contenedorInfo {
+        width: 98%;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+
+    .info_imagen {
+        width: 40%;
+    }
+
+    .info_texto h3 {
+        font-size: 2rem;
+    }
+
+    .info_texto .negrita {
+        font-size: 1.5rem;
+    }
+
+    .info_texto p {
+        font-size: 1rem;
+    }
+
+    .contenido {
+        width: 96vw;
+        justify-content: space-between;
+        overflow: hidden;
+        height: 280px;
+    }
+
+    .contenido-producto {
+        padding-right: 0px;
+    }
+
+
+    /*------------------- contacto  ----------------------------------------*/
+    .contactoLogo-info {
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+    }
+
+    .logparte2 {
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .contacto-info {
+        margin-left: 30px;
+    }
+
+    .contacto-infoList-item a {
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .formularioTitulo {
+        ;
+        font-size: 13px;
+    }
+
+    .btnFormulario {
+        font-size: 0.8rem;
+    }
+
+    /*-------------------  footer  ----------------------------------------*/
+    .footer {
+        font-size: 1rem;
+        font-weight: 700;
+
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    /*------------------- header  ----------------------------------------*/
+    .logoBusqueda {
+        width: 50%;
+        height: 12vh;
+    }
+
+    .logparte1 {
+        width: 60%;
+    }
+
+    .logparte1 img {
+        width: 40px;
+    }
+
+    .logparte2 {
+        justify-content: center;
+    }
+
+    .busqueda input {
+        width: 35px;
+        height: 40px;
+        background: #e2e2e2;
+        border-radius: 20px;
+        background-image: url(../img/lupa.png);
+        background-repeat: no-repeat;
+        background-position: 50%;
+        margin-top: 1.8rem;
+        border: none;
+    }
+
+    .busqueda input::placeholder {
+        color: transparent;
+    }
+
+    .btnLogin {
+        width: 110px;
+        height: 30px;
+        padding: 6px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    /*------------------- descripcion  ----------------------------------------*/
+    .contenedorInfo {
+        width: 94%;
+        height: 250px;
+    }
+
+    .info_imagen {
+        width: 50%;
+    }
+
+    .info_texto h3 {
+        font-size: 1.5rem;
+    }
+
+    .info_texto .negrita {
+        font-size: 1.05rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .info_texto p {
+        font-size: 1rem;
+    }
+
+    .contenido {
+        width: 80vw;
+        height: 660px;
+    }
+
+    .contenido-producto {
+        width: 230px;
+    }
+
+    .contenido-producto img {
+        width: 100%;
+    }
+
+    /*------------------- contacto  ----------------------------------------*/
+    .contacto {
+        flex-direction: column;
+    }
+
+    .contactoLogo-info {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .logparte2 {
+        margin-left: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .contacto-info {
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    .contacto-infoList-item a {
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .contacto-formulario {
+        width: 90%;
+    }
+
+    .formularioTitulo {
+        ;
+        font-size: 13px;
+    }
+
+    .btnFormulario {
+        width: 40%;
+        font-size: 1.3rem;
+    }
+
+    /*-------------------  footer  ----------------------------------------*/
+    .footer {
+        font-size: 1rem;
+        font-weight: 700;
+
+    }
+}
